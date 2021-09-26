@@ -1,0 +1,54 @@
+.max-height {
+  min-height: 100vh;
+}
+:root {
+  --darkOrange: #E54B4B;
+  --lightOrange: #FFA987;
+  --mainWhite: #f7EBE8;
+  --mainDark: #444140;
+}
+
+body {
+  background: var(--darkOrange);
+}
+.card-title {
+  background: var(--lightOrange);
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  color: var(--mainWhite);
+}
+.card {
+  border: none !important;
+  border-radius: 0.5rem !important;
+}
+
+.bill-icon,
+.user-icon {
+  background: var(--lightOrange) !important;
+  color: var(--mainWhite);
+}
+.submitBtn {
+  background: var(--lightOrange);
+  font-size: 1.2rem;
+  color: var(--mainWhite);
+}
+
+.submitBtn:hover {
+  background: var(--darkOrange);
+  color: var(--mainDark);
+}
+/* feedback */
+.feedback {
+  display: none;
+}
+.loader {
+  display: none;
+}
+
+.results {
+  display: none;
+}
+
+.showItem {
+  display: block;
+}
